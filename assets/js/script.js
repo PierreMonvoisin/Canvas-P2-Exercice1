@@ -17,7 +17,7 @@ $(function(){
   context.strokeStyle = '#8A0908';
   context.fillStyle = '#8A0908'
   context.moveTo(170, 200);
-  context.arcTo(/* .left point1 */ 0,/* .top point1 */ 0,/* .left point2 */ 230,/* .top point2 */ 210,/* Rayon */ 20);
+  context.bezierCurveTo(160, 140, 240, 140, 230, 200);
   context.stroke();
   context.fill();
 });
